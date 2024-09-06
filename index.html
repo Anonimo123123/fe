@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipps Da Escola 7' e 6"</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            color: yellow;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 2px solid white;
+            background-color: #222;
+            border-radius: 10px;
+        }
+        .grade {
+            margin: 20px 0;
+        }
+        .grade h2 {
+            color: red;
+            margin-bottom: 10px;
+        }
+        .names {
+            color: blue;
+            font-size: 18px;
+            list-style: none;
+            padding: 0;
+        }
+        .names li {
+            margin: 5px 0;
+        }
+
+        /* Efeito RGB */
+        .rgb {
+            font-weight: bold;
+            animation: rgbEffect 2s infinite;
+        }
+
+        @keyframes rgbEffect {
+            0% { color: red; }
+            33% { color: green; }
+            66% { color: blue; }
+            100% { color: red; }
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Shipps Da Escola 7° e 6° teste</h1>
+        
+        <div class="grade">
+            <h2>6° Ano</h2>
+            <ul class="names">
+                <li>G+H</li>
+                <li>M+A</li>
+                <li><span class="rgb">P+M</span></li>
+                <li>G+H</li>
+                <li><span class="rgb">N+L</span></li> <!-- Efeito RGB aplicado -->
+                <li>K+J</li>
+                <li>E+I</li>
+                <li>S+A</li>
+                <li><span class="rgb">J+I</span></li>
+            </ul>
+        </div>
+        
+        <div class="grade">
+            <h2>7° Ano</h2>
+            <ul class="names">
+                <li><span class="rgb">G+A</span></li> <!-- Efeito RGB aplicado -->
+                <li>Ju+R</li>
+                <li>S+L</li>
+                <li>Jo+FE</li>
+                <li>Dav+Fer</li>
+                <li>Dan+Sofia</li>
+                <li>Pedro+T</li>
+                <li>Pa+L</li>
+                <li><span class="rgb">L+N</span></li> <!-- Efeito RGB aplicado -->
+            </ul>
+        </div>
+
+        <footer>
+            Feito por Anonimo, So falo quem eu sou no final do ano, ou se descobrirem!
+        </footer>
+    </div>
+</body>
+</html>
